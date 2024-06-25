@@ -29,3 +29,6 @@ console.log(discount)
 // Ticket's reduced price variable
 let reducedPrice = (price - discount).toFixed(2);
 console.log(reducedPrice);
+
+// Alert message for the user
+alert("Il prezzo del suo biglietto è di € " + reducedPrice + ".")
