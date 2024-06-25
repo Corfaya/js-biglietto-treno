@@ -20,3 +20,8 @@ if (age < 18) {
     reduction = 40 / 100;
     console.log(reduction);
 }
+// else {}
+
+// Discount's amount variable
+let discount = price * reduction;
+console.log(discount)
