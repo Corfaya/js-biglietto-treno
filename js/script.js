@@ -16,4 +16,7 @@ console.log(reduction);
 if (age < 18) {
     reduction = 20 / 100;
     console.log(reduction);
+} else if (age >= 65) {
+    reduction = 40 / 100;
+    console.log(reduction);
 }
