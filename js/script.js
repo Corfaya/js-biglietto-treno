@@ -10,3 +10,10 @@ console.log(costPerKm)
 let price = costPerKm * km;
 console.log(price);
 let reduction = 0;
+console.log(reduction);
+
+// CONDITIONAL CONSTRUCTION
+if (age < 18) {
+    reduction = 20 / 100;
+    console.log(reduction);
+}
