@@ -25,3 +25,7 @@ if (age < 18) {
 // Discount's amount variable
 let discount = price * reduction;
 console.log(discount)
+
+// Ticket's reduced price variable
+let reducedPrice = (price - discount).toFixed(2);
+console.log(reducedPrice);
